@@ -1,26 +1,37 @@
-.jobSelection {
-  border-radius: var(--br-5xs);
-  background-color: var(--color-white);
-  border: 1px solid var(--color-lightgray);
-  box-sizing: border-box;
-  width: 233px;
-  height: 52px;
-  overflow: hidden;
-  flex-shrink: 0;
-  flex-direction: column;
-  padding: 0 var(--padding-xl);
-  padding-right: 10px;
-  align-self: stretch;
-  flex: 1;
-  flex-direction: row;
-  gap: var(--gap-9xl);
+.dropdownContainer {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  box-sizing: border-box;
 }
-.vectorIcon {
-    position: relative;
-    width: 21px;
-    height: 20.97px;
-  }
 
+
+.dropdownControl {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.jobSelection {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  appearance: none;
+  padding: 0;
+}
+
+.jobSelection option {
+  padding: 15px 0;
+  border: 1px solid #CCCCCC;
+  border-radius: var(--br-5xs);
+}
+
+.vectorIcon {
+  position: relative;
+  width: 21px;
+  height: 20.97px;
+  margin-right: 10px;
+}
