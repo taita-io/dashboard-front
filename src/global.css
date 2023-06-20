@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arciform+Sans:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-nunito: Nunito;
+  --font-arciform-sans: "Arciform Sans";
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-2xl-9: 21.9px;
+  --font-size-mid-5: 17.5px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-lightgray: #ccc;
+  --color-gray-100: #777;
+  --color-gray-200: #131138;
+  --color-silver: #bbb;
+  --color-whitesmoke: #eee;
+  --color-darkviolet: #8600ce;
+
+  /* Gaps */
+  --gap-mid: 17px;
+  --gap-6xs: 7px;
+  --gap-xl: 20px;
+  --gap-9xl: 28px;
+  --gap-lg: 18px;
+  --gap-60xl: 79px;
+  --gap-3xl: 22px;
+  --gap-10xs: 3px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-8xs: 5px;
+  --padding-xs: 12px;
+  --padding-26xl: 45px;
+  --padding-23xl: 42px;
+  --padding-3xs: 10px;
+
+  /* border radiuses */
+  --br-5xs: 8px;
+  --br-mini-5: 14.5px;
+}

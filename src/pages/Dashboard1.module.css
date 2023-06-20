@@ -1,0 +1,525 @@
+.vectorIcon {
+  position: relative;
+  width: 21px;
+  height: 20.97px;
+}
+.vectorParent {
+  width: 162px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.vectorIcon1 {
+  position: relative;
+  width: 8px;
+  height: 5.5px;
+}
+.dropDown,
+.jobSelection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dropDown {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-9xl);
+}
+.jobSelection {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  width: 233px;
+  height: 52px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 0 var(--padding-xl);
+}
+.candidateChoice,
+.dropDown1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+}
+.dropDown1 {
+  height: 24px;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xl);
+}
+.candidateChoice {
+  padding: 0 121px 0 335px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 242px;
+}
+.frameChild,
+.frameItem {
+  align-self: stretch;
+  position: relative;
+  border-right: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  height: 721px;
+  display: none;
+}
+.frameItem {
+  height: 731px;
+}
+.aiIcon1 {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+}
+.iconStars {
+  width: 21.77px;
+  height: 21.77px;
+  display: none;
+}
+.conflictResolution,
+.iconStars {
+  position: relative;
+}
+.aiIcon1Parent,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.frameParent {
+  gap: var(--gap-xl);
+}
+.asATeam {
+  flex: 1;
+  position: relative;
+}
+.tableEntrySummary {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-26xl) 0 var(--padding-23xl);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-60xl);
+}
+.entryAndDividerChild {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  height: 1px;
+}
+.entryAndDivider {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+.conflictResolutionWrapper,
+.describeASituationAtWorkWWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.describeASituationAtWorkWWrapper {
+  align-self: stretch;
+  padding: var(--padding-3xs) var(--padding-3xs) var(--padding-3xs) 11px;
+  align-items: flex-start;
+  color: var(--color-gray-200);
+}
+.frameDiv {
+  width: 178px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: var(--color-darkviolet);
+}
+.tableEntrySummary3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-26xl) 0 var(--padding-23xl);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-60xl);
+}
+.entryAndDivider3 {
+  align-self: stretch;
+  align-items: center;
+  color: var(--color-gray-200);
+}
+.candidateChoiceParent,
+.contentTable,
+.entryAndDivider3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.contentTable {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-mid);
+  font-size: var(--font-size-sm);
+  color: var(--color-darkviolet);
+}
+.candidateChoiceParent {
+  position: absolute;
+  top: 235px;
+  left: 273px;
+  width: 1167px;
+  align-items: center;
+  gap: 29px;
+}
+.compareCandidatesUsing {
+  align-self: stretch;
+  position: relative;
+}
+.conflictResolution4 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-nunito);
+  color: var(--color-white);
+  text-align: left;
+}
+.conflictResolutionContainer {
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
+  background: linear-gradient(-85.86deg, #f0f, #164193);
+}
+.conflictResolutionContainer,
+.conflictResolutionFrame,
+.conflictResolutionWrapper1 {
+  flex: 1;
+  border-radius: var(--br-mini-5);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-8xs) var(--padding-xs);
+  align-items: center;
+  justify-content: center;
+}
+.conflictResolutionFrame {
+  background-color: var(--color-whitesmoke);
+  color: var(--color-gray-100);
+}
+.conflictResolutionWrapper1 {
+  background: linear-gradient(-85.86deg, #f0f, #164193);
+}
+.instanceParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.conflictResolutionWrapper6,
+.conflictResolutionWrapper8 {
+  flex: 1;
+  border-radius: var(--br-mini-5);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-8xs) var(--padding-xs);
+  align-items: center;
+  justify-content: center;
+}
+.conflictResolutionWrapper6 {
+  background-color: var(--color-whitesmoke);
+}
+.conflictResolutionWrapper8 {
+  background: linear-gradient(-85.86deg, #f0f, #164193);
+  color: var(--color-white);
+}
+.frameParent2,
+.instanceGroup,
+.stickyTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.instanceGroup {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-lg);
+  color: var(--color-gray-100);
+}
+.frameParent2,
+.stickyTop {
+  flex-direction: column;
+}
+.frameParent2 {
+  align-self: stretch;
+  gap: 14px;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+}
+.stickyTop {
+  position: absolute;
+  top: 0;
+  left: 273px;
+  background-color: var(--color-white);
+  box-shadow: 0 1px 9px 2px rgba(0, 0, 0, 0.15);
+  width: 1167px;
+  padding: 30px 50px;
+  box-sizing: border-box;
+  gap: 21px;
+  font-size: 34.18px;
+  font-family: var(--font-arciform-sans);
+}
+.taitaBlobFullPurple1 {
+  text-decoration: none;
+  position: relative;
+  width: 139px;
+  height: 58px;
+  background-image: url(/public/taitablobfullpurple1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.jobSelection2 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  height: 52px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-xl);
+  align-items: center;
+  justify-content: center;
+}
+.iconPeople {
+  position: relative;
+  width: 29px;
+  height: 29px;
+}
+.candidates1 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-nunito);
+  color: var(--color-gray-100);
+  text-align: left;
+}
+.candidates,
+.dataParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.candidates {
+  cursor: pointer;
+  border: 0;
+  padding: 0 0 0 var(--padding-xl);
+  background-color: transparent;
+  flex-direction: row;
+  align-items: center;
+}
+.dataParent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+}
+.iconArrows {
+  position: relative;
+  width: 28px;
+  height: 28px;
+}
+.comparisons {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  flex-direction: row;
+  align-items: center;
+}
+.analysisItems,
+.comparisons,
+.iconChatBubbleParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.iconChatBubbleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 162px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-6xs);
+}
+.analysisItems {
+  flex-direction: column;
+  padding: 0 0 0 var(--padding-xl);
+  align-items: flex-start;
+  gap: var(--gap-xl);
+}
+.menuItems,
+.menuTop {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
+.menuItems {
+  align-items: flex-start;
+  justify-content: center;
+  gap: 50px;
+  font-size: 21.88px;
+  color: var(--color-silver);
+  font-family: var(--font-arciform-sans);
+}
+.menuTop {
+  padding: 17px var(--padding-xl) 0;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 44px;
+}
+.avatarIcon {
+  position: relative;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+}
+.ivannakreschenetskagmailcom {
+  position: relative;
+  font-size: 11.2px;
+  color: var(--color-gray-100);
+}
+.avatarParent,
+.nameEmail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.avatarParent {
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-6xs);
+}
+.dotMenuChild {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-gray-200);
+  width: 3px;
+  height: 3px;
+}
+.dotMenu {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 2px;
+}
+.menuBottomLogin,
+.sideMenuDrawer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.menuBottomLogin {
+  align-self: stretch;
+  border-top: 1px solid var(--color-lightgray);
+  flex-direction: row;
+  padding: var(--padding-xl);
+  gap: var(--gap-mid);
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-200);
+}
+.sideMenuDrawer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  box-shadow: 1px 0 9px 2px rgba(0, 0, 0, 0.15);
+  width: 273px;
+  height: 925px;
+  overflow: hidden;
+  flex-direction: column;
+  gap: 385px;
+  color: var(--color-gray-100);
+}
+.vectorIcon10,
+.vectorIcon11 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 1167.7%;
+  right: -1875.82%;
+  bottom: -1167.7%;
+  left: 1875.82%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon11 {
+  height: 97.22%;
+  width: 97.22%;
+  top: -4.89%;
+  right: -0.5%;
+  bottom: 7.67%;
+  left: 3.29%;
+}
+.iconAddCircle {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 7.79%;
+  width: 5%;
+  top: 90.92%;
+  right: 1.18%;
+  bottom: 1.29%;
+  left: 93.82%;
+}
+.dashboard,
+.dashboard1 {
+  height: 925px;
+  overflow: hidden;
+}
+.dashboard {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1440px;
+}
+.dashboard1 {
+  position: relative;
+  background-color: #f5f8ff;
+  width: 100%;
+  text-align: left;
+  font-size: var(--font-size-mid-5);
+  color: var(--color-gray-200);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 1200px) {
+  .candidateChoice {
+    flex-direction: row;
+    gap: 214px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}
