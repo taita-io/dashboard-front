@@ -7,8 +7,8 @@ const Dashboard1 = () => {
       <div className={styles.dashboard}>
         <div className={styles.candidateChoiceParent}>
           <div className={styles.candidateChoice}>
-            <Dropdown options={['Viktor Tsvil', 'Yuehan Zeng']} iconUrl="" color="blue" />
-            <Dropdown options={['Georgi Sokolov']} iconUrl="" color="blue" />
+            <Dropdown options={['Viktor Tsvil', 'Yuehan Zeng']} iconUrl=""/>
+            <Dropdown options={['Georgi Sokolov']} iconUrl=""/>
           </div>
           <div className={styles.frameChild} />
           <div className={styles.frameItem} />
@@ -239,7 +239,7 @@ const Dashboard1 = () => {
         <div className={styles.sideMenuDrawer}>
           <div className={styles.menuTop}>
             <a className={styles.taitaBlobFullPurple1} />
-            <Dropdown options={['ed-sales-02']} iconUrl="/vector.svg" color="blue" />
+            <Dropdown options={['ed-sales-02']} iconUrl="/vector.svg"/>
             <div className={styles.menuItems}>
               <div className={styles.dataParent}>
                 <div className={styles.conflictResolution}>data</div>

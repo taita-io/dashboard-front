@@ -1,4 +1,30 @@
 .candidateChoice {
+  padding: 0 121px 0 335px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 242px;
+}
+.vectorParent {
+width: 162px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+gap: var(--gap-6xs);
+}
+
+.conflictResolution,
+.iconStars {
+position: relative;
+}
+
+.vectorIcon1 {
+  position: relative;
+  width: 8px;
+  height: 5.5px;
+}
+
+.candidateChoice {
   align-self: stretch;
   display: flex;
   flex-direction: row;
