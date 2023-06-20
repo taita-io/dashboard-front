@@ -1,30 +1,14 @@
 import styles from "./Dashboard1.module.css";
+import Dropdown from '../components/Dropdown';
+
 const Dashboard1 = () => {
   return (
     <div className={styles.dashboard1}>
       <div className={styles.dashboard}>
         <div className={styles.candidateChoiceParent}>
           <div className={styles.candidateChoice}>
-            <div className={styles.jobSelection}>
-              <div className={styles.dropDown}>
-                <div className={styles.vectorParent}>
-                  <img className={styles.vectorIcon} alt="" src="/vector.svg" />
-                  <div className={styles.conflictResolution}>Viktor Tsvil</div>
-                </div>
-                <img className={styles.vectorIcon1} alt="" src="/vector1.svg" />
-              </div>
-            </div>
-            <div className={styles.jobSelection}>
-              <div className={styles.dropDown1}>
-                <div className={styles.vectorParent}>
-                  <img className={styles.vectorIcon} alt="" src="/vector.svg" />
-                  <div className={styles.conflictResolution}>
-                    Georgi Sokolov
-                  </div>
-                </div>
-                <img className={styles.vectorIcon1} alt="" src="/vector1.svg" />
-              </div>
-            </div>
+            <Dropdown options={['Viktor Tsvil', 'Yuehan Zeng']} iconUrl="" color="blue" />
+            <Dropdown options={['Georgi Sokolov']} iconUrl="" color="blue" />
           </div>
           <div className={styles.frameChild} />
           <div className={styles.frameItem} />
@@ -255,15 +239,7 @@ const Dashboard1 = () => {
         <div className={styles.sideMenuDrawer}>
           <div className={styles.menuTop}>
             <a className={styles.taitaBlobFullPurple1} />
-            <div className={styles.jobSelection2}>
-              <div className={styles.dropDown1}>
-                <div className={styles.vectorParent}>
-                  <img className={styles.vectorIcon} alt="" src="/vector.svg" />
-                  <div className={styles.conflictResolution}>ed-sales-01</div>
-                </div>
-                <img className={styles.vectorIcon1} alt="" src="/vector5.svg" />
-              </div>
-            </div>
+            <Dropdown options={['ed-sales-02']} iconUrl="/vector.svg" color="blue" />
             <div className={styles.menuItems}>
               <div className={styles.dataParent}>
                 <div className={styles.conflictResolution}>data</div>
