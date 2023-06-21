@@ -150,6 +150,10 @@ position: relative;
   gap: var(--gap-mid);
   font-size: var(--font-size-sm);
   color: var(--color-darkviolet);
+  display: none !important;
+}
+.candidateChoice {
+  display: none !important;
 }
 .candidateChoiceParent {
   position: absolute;
@@ -477,17 +481,13 @@ position: relative;
   bottom: 1.29%;
   left: 93.82%;
 }
-.dashboard,
-.dashboard1 {
-  height: 925px;
-  overflow: hidden;
-}
+
 .dashboard {
   position: absolute;
   top: 0;
   left: 0;
   background-color: var(--color-white);
-  width: 1440px;
+  width: 100vh;
 }
 .dashboard1 {
   position: relative;

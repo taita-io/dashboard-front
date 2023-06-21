@@ -1,0 +1,15 @@
+.table {
+    width: 100%;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .row p {
+    width: 33%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
