@@ -1,7 +1,25 @@
 import styles from "./Dashboard1.module.css";
 import Dropdown from '../components/Dropdown';
+import Questions_Selection from '../components/Questions_Selection';
+
 
 const Dashboard1 = () => {
+  const boxData = [
+    { title: 'Conflict Resolution', status: 'active' },
+    { title: 'Education', status: 'active' },
+    { title: 'Sales Experience', status: 'active' },
+    { title: 'Leadership', status: 'active' },
+    { title: 'Values', status: 'active' },
+    { title: 'Work Experience', status: 'active' },
+    { title: 'Qualifications', status: 'active' }, 
+    { title: 'Conflict Resolution', status: 'active' },
+    { title: 'Education', status: 'active' },
+    { title: 'Sales Experience', status: 'active' },
+    { title: 'Leadership', status: 'active' },
+    { title: 'Values', status: 'active' },
+    { title: 'Work Experience', status: 'active' },
+    { title: 'Qualifications', status: 'active' },
+  ];
   return (
     <div className={styles.dashboard1}>
       <div className={styles.dashboard}>
@@ -182,57 +200,10 @@ const Dashboard1 = () => {
           </div>
         </div>
         <div className={styles.stickyTop}>
-          <div className={styles.compareCandidatesUsing}>
-            compare candidates using ai
-          </div>
+          <div className={styles.pageTitle}> compare candidates using ai </div>
           <div className={styles.frameParent2}>
             <div className={styles.instanceParent}>
-              <button className={styles.conflictResolutionContainer}>
-                <div className={styles.conflictResolution4}>
-                  Conflict Resolution
-                </div>
-              </button>
-              <div className={styles.conflictResolutionFrame}>
-                <div className={styles.conflictResolution}>Education</div>
-              </div>
-              <div className={styles.conflictResolutionWrapper1}>
-                <div className={styles.conflictResolution}>
-                  Sales Experience
-                </div>
-              </div>
-              <div className={styles.conflictResolutionWrapper1}>
-                <div className={styles.conflictResolution}>Leadership</div>
-              </div>
-              <div className={styles.conflictResolutionFrame}>
-                <div className={styles.conflictResolution}>Values</div>
-              </div>
-              <div className={styles.conflictResolutionWrapper1}>
-                <div className={styles.conflictResolution}>Work Experience</div>
-              </div>
-              <div className={styles.conflictResolutionWrapper1}>
-                <div className={styles.conflictResolution}>Qualifications</div>
-              </div>
-            </div>
-            <div className={styles.instanceGroup}>
-              <div className={styles.conflictResolutionWrapper6}>
-                <div className={styles.conflictResolution}>Role Play</div>
-              </div>
-              <div className={styles.conflictResolutionWrapper6}>
-                <div className={styles.conflictResolution}>Location</div>
-              </div>
-              <div className={styles.conflictResolutionWrapper8}>
-                <div className={styles.conflictResolution}>
-                  Work Preferences
-                </div>
-              </div>
-              <div className={styles.conflictResolutionWrapper6}>
-                <div className={styles.conflictResolution}>
-                  Social Media Skills
-                </div>
-              </div>
-              <div className={styles.conflictResolutionWrapper6}>
-                <div className={styles.conflictResolution}>Teamwork</div>
-              </div>
+              <Questions_Selection boxData={boxData} />
             </div>
           </div>
         </div>
