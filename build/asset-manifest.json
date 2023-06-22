@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.88d18a10.css",
+    "main.js": "/static/js/main.d669f919.js",
+    "static/media/taitablobfullpurple1@3x.png": "/static/media/taitablobfullpurple1@3x.f8d67bd04ee3afe9efb5.png",
+    "index.html": "/index.html",
+    "main.88d18a10.css.map": "/static/css/main.88d18a10.css.map",
+    "main.d669f919.js.map": "/static/js/main.d669f919.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88d18a10.css",
+    "static/js/main.d669f919.js"
+  ]
+}

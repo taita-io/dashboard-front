@@ -1,0 +1,27 @@
+.questionSelectionWrapper {
+  align-self: stretch;
+  gap: 14px;
+  flex-direction: row;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.pageTitle {
+  font-size: 34.18px;
+  font-family: var(--font-arciform-sans);
+  color: black;
+}
+.stickyTop {
+  position: sticky;
+  background-color: var(--color-white);
+  box-shadow: 0 1px 9px 2px rgba(0, 0, 0, 0.15);
+  width: 100vw; /* Set width to 100% */
+  padding: 30px 50px;
+  gap: 21px;
+  font-size: 34.18px;
+  font-family: var(--font-arciform-sans);
+  height: fit-content;
+}
