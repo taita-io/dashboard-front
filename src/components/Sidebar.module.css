@@ -1,0 +1,39 @@
+.sidebar {
+    width: 50px; /* Initial collapsed width */
+    height: 100%;
+    background-color: #f0f0f0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    transition: width 0.3s; /* Smooth transition */
+}
+
+.sidebar:hover,
+.sidebar--open {
+    width: 200px; /* Width when hovered or open */
+}
+
+.sidebar__dropdown,
+.sidebar__menu {
+    margin: 20px;
+}
+
+.sidebar__dropdown-icon,
+.sidebar__menu-icon {
+    display: none;
+}
+
+.sidebar:hover .sidebar__dropdown-icon,
+.sidebar:hover .sidebar__menu-icon,
+.sidebar--open .sidebar__dropdown-icon,
+.sidebar--open .sidebar__menu-icon {
+    display: block;
+}
+
+.sidebar:hover .sidebar__dropdown-label,
+.sidebar:hover .sidebar__menu-label,
+.sidebar--open .sidebar__dropdown-label,
+.sidebar--open .sidebar__menu-label {
+    display: block;
+}

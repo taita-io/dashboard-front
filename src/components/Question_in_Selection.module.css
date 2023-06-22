@@ -1,31 +1,16 @@
 .conflictResolutionContainer {
-  cursor: pointer;
-  border: 0;
-  background-color: transparent;
-}
-
-.conflictResolutionContainer,
-.conflictResolutionFrame,
-.conflictResolutionWrapper1 {
-  flex: 1;
   border-radius: var(--br-mini-5);
-  display: flex;
-  flex-direction: row;
   padding: var(--padding-8xs) var(--padding-xs);
   align-items: center;
   justify-content: center;
-}
-
-.conflictResolutionFrame {
-  background-color: var(--color-whitesmoke);
-  color: var(--color-gray-100);
-}
-
-.conflictResolutionWrapper1 {
   color: white;
   background-color: gray; /* Initial gray background color */
+  cursor: pointer;
+  border: 0;
+  width: auto;
+  white-space: nowrap;
 }
 
-.conflictResolutionContainer.selected .conflictResolutionWrapper1 {
+.conflictResolutionContainer.selected {
   background: linear-gradient(-85.86deg, #f0f, #164193); /* Gradient background for selected state */
 }

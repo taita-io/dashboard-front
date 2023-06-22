@@ -3,7 +3,8 @@ import Dropdown from '../components/Dropdown';
 import Response from '../components/Response';
 import ComparisonTable from '../components/ComparisonTable'
 import Row from '../components/Row'
-import Questions_Selection from '../components/Questions_Selection';
+import Header from '../components/Header';
+import Sidebar from '../components/Sidebar';
 
 const data = [
   {
@@ -52,8 +53,9 @@ const Dashboard1 = () => {
     { title: 'Qualifications', status: 'active' },
   ];
   return (
-    <div className={styles.dashboard1}>
-      <div className={styles.dashboard}>
+    <div className={styles.page}>
+      <Sidebar></Sidebar>
+      <div className={styles.mainContent}>
         <div className={styles.candidateChoiceParent}>
           <div className={styles.candidateChoice}>
             <Dropdown options={['Viktor Tsvil', 'Yuehan Zeng']} iconUrl=""/>
@@ -231,14 +233,7 @@ const Dashboard1 = () => {
           </div>
           <ComparisonTable data={data}/>
         </div>
-        <div className={styles.stickyTop}>
-          <div className={styles.pageTitle}> compare candidates using ai </div>
-          <div className={styles.frameParent2}>
-            <div className={styles.instanceParent}>
-              <Questions_Selection boxData={boxData} />
-            </div>
-          </div>
-        </div>
+        <Header boxData={boxData} />
         <div className={styles.sideMenuDrawer}>
           <div className={styles.menuTop}>
             <a className={styles.taitaBlobFullPurple1} />

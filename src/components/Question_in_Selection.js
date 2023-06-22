@@ -13,9 +13,7 @@ const Button = ({ title }) => {
       className={`${styles.conflictResolutionContainer} ${isSelected ? styles.selected : ''}`}
       onClick={handleClick}
     >
-      <div className={`${styles.conflictResolutionWrapper1} ${isSelected ? styles.selected : ''}`}>
         <div className={styles.conflictResolution}>{title}</div>
-      </div>
     </button>
   );
 };
