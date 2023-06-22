@@ -443,12 +443,19 @@ position: relative;
 
 .mainContent {
   background-color: var(--color-white);
-  flex-grow: 1;
-  overflow: auto;
+  position: relative; /* Relative to the page */
+  grid-row: 2;
+  overflow-y: auto;
+  padding: 30px;
 }
+
 .page {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
   height: 100vh;
+  width: 100%;
+  overflow: hidden;
   background-color: #f5f8ff;
   text-align: left;
   font-size: var(--font-size-mid-5);

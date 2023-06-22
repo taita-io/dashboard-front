@@ -1,12 +1,21 @@
-// ComparisonTable.js
 import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper } from '@material-ui/core';
 import Row from './Row';
-import Dropdown from './Dropdown';
+import Dropdown from '../General/Dropdown';
+
+const useStyles = makeStyles({
+  tableContainer: {
+    boxShadow: 'none', // Removes shadow
+    border: 'none', // Removes border
+  },
+});
 
 function ComparisonTable({ data }) {
+  const classes = useStyles();
+
   return (
-    <TableContainer component={Paper}>
+    <TableContainer component={Paper} className={classes.tableContainer}>
       <Table aria-label="collapsible table">
         <TableHead>
           <TableRow>

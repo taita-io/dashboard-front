@@ -1,0 +1,25 @@
+.menu-item {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    color: var(--color-gray-100);
+    align-items: center; /* Aligns the icon and label vertically */
+}
+
+.menu-item-label {
+    text-decoration: none;
+}
+
+.menu-item-icon {
+    margin-right: 10px; /* Adds some space between the icon and the label */
+}
+
+.menu-category-title {
+    font-family: var(--font-arciform-sans);
+    font-weight: normal;
+}
+
+.menu-item:hover {
+    background-color: #f0f0f0; /* Changes the background color on hover */
+}

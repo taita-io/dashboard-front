@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // import Link from react-router-dom
-import styles from './Sidebar.module.css';
+import styles from './Menu.module.css';
 
 const MenuItem = ({ icon, label, link }) => {
   return (
-    <Link to={link} className={styles['sidebar__menu']}>
-      <div className={styles['sidebar__menu-icon']}>
+    <Link to={link} className={styles['menu-item']}>
+      <div className={styles['menu-item-icon']}>
         {icon}
       </div>
-      <span className={styles['sidebar__menu-label']}>
+      <span className={styles['menu-item-label']}>
         {label}
       </span>
     </Link>
@@ -17,7 +17,7 @@ const MenuItem = ({ icon, label, link }) => {
 
 const MenuCategory = ({ label, items }) => {
   return (
-    <div className={styles['sidebar__dropdown']}>
+    <div className={styles['menu-category-title']}>
       <h3>{label}</h3>
       {items.map((item, index) => (
         <MenuItem key={index} {...item} />

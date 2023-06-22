@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from "../pages/Dashboard1.module.css"; //change it to local styles!!
+import styles from "./Question.module.css"; //change it to local styles!!
 
 function Question({ summaryText, fullText, isOpen }) {
     return (

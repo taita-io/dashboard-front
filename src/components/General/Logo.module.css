@@ -1,0 +1,21 @@
+.logoFull {
+    display: flex;
+    text-decoration: none;
+    position: relative;
+    height: 70px;
+    background-image: url(/public/taitablobfullpurple1@3x.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .logoSmall {
+    text-decoration: none;
+    position: relative;
+    width: auto;
+    height: 58px;
+    background-image: url(/public/taita-blob-square.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
